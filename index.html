@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f4f4;
+text-align:center;
+}
+
+/* Main container */
+.container{
+width:80%;
+margin:auto;
+}
+
+/* Website Name */
+.header{
+padding:20px;
+margin:20px;
+font-size:28px;
+font-weight:bold;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo{
+  width: 150px;   /* image size chinna ga */
+}
+
+.box{
+
+padding:40px;
+width:250px;
+}
+
+/* Gallery Title */
+.gallery-title{
+font-size: 100px;
+margin-top:30px;
+}
+
+/* Gallery container */
+.gallery-container{
+width:100%;
+overflow:hidden;
+margin-top:20px;
+}
+
+/* Moving gallery */
+.gallery{
+display:flex;
+gap: 10px;
+animation:slide 12s linear infinite;
+}
+
+/* Images */
+.gallery img{
+width:250px;
+height:200px;
+
+}
+
+/* Animation */
+@keyframes slide{
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-600px);
+}
+}
+
+/* Company Details */
+.details{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:30px;
+}
+
+.detail-box{
+
+padding:40px;
+width:250px;
+}
+
+/* Address */
+.address{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:20px;
+}
+
+.address-box{
+
+padding:40px;
+width:250px;
+}
+
+/* Contact */
+.contact{
+
+padding:40px;
+margin:20px;
+}
+
+.footer{
+background:#222;
+color:white;
+padding:40px 20px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-box{
+width:200px;
+margin:10px;
+}
+
+.footer-box h3{
+margin-bottom:10px;
+}
+
+.footer-box a{
+display:block;
+color:#ccc;
+text-decoration:none;
+margin:5px 0;
+}
+
+.footer-box a:hover{
+color:white;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:20px;
+border-top:1px solid #444;
+padding-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<img src="image7.webp" width="1350" height="450">
+</div>
+
+<div class="intro">
+  <img src="image8.png" alt="TrendCart Logo" class="logo">
+  <p><b>Welcome to TrendCart – your place to discover trending products and everyday essentials.</b></p>
+</div>
+
+
+</div>
+
+
+<div class="gallery-container">
+
+<div class="gallery">
+
+<img src="image1.jpeg">
+<img src="image2.png">
+<img src="image3.png">
+<img src="image4.png">
+<img src="image6.jpeg">
+
+</div>
+
+</div>
+
+<div class="details">
+
+<div class="detail-box">
+Name: TrendCart India
+Type: Online Shopping Website
+Services: Trending Products, Gadgets, Lifestyle Items
+Founded: 2025 
+</div>
+
+<div class="detail-box">
+Name: TrendCart
+Category: E-Commerce Website
+Products: Trending Gadgets, Accessories, Daily Essentials
+Mission: Providing quality products at affordable prices.
+</div>
+
+</div>
+
+<div class="address">
+
+<div class="address-box">
+Office: TrendCart Online Store
+Location: Sarojinidevi, Andhra Pradesh, India
+Email: trendcartindia@gmail.com
+Phone: +91 XXXXX XXXXX
+</div>
+
+<div class="address-box">
+Office: TrendCart Online Store
+City: Vijayawada, Andhra Pradesh, India
+Email: support@trendcart.com
+Phone: +91 98765 43210
+</div>
+
+</div>
+
+<div class="contact">
+Contact Us
+For any queries about products or orders, feel free to contact us.
+Email: trendcartindia@gmail.com
+Phone: +91 XXXXX XXXXX
+Customer Support: Available 9:00 AM – 6:00 PM
+Location: Andhra Pradesh, India
+</div>
+
+<div class="footer">
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-box">
+      <h3>TrendCart</h3>
+      <p>Sarojinidevi, Andhra Pradesh, India</p>
+      <p>Email: trendcartindia@gmail.com</p>
+      <p>Phone: +91 XXXXX XXXXX</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Customer Support</h3>
+      <a href="#">FAQ</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Return Policy</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 TrendCart. All Rights Reserved.</p>
+  </div>
+</footer>
+</div>
+
+</div>
+
+</body>
+</html>
